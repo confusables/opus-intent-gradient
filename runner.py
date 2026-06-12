@@ -38,9 +38,9 @@ MODEL_CONFIG = {
     "claude-opus-4-7":          {"thinking": "adaptive",                                    "max_tokens": 16000},
 }
 
-SAMPLES_PER_CELL = 3
+SAMPLES_PER_CELL = 15
 TEMPERATURE = 1.0          # required by thinking mode; matched across all models
-CONCURRENCY = 4            # tune down if rate limits bite
+CONCURRENCY = 8            # tune down if rate limits bite
 
 client = AsyncAnthropic()
 
