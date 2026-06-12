@@ -165,3 +165,5 @@ python analyze.py        # produces reports/full_matrix.md
 _Built with a Claude Opus 4.7 instance (Claude Code session, April 2026). Research design and review: confusables. Scaffolding, analysis, and tiebreak reasoning: the Opus 4.7 instance._
 
 _v1 hardening (June 2026) — split taxonomy, viability × framing 2×2, n=15, three-judge majority, Cohen's κ, pre-registration: a Claude Opus 4.8 instance (Claude Code session), with confusables._
+
+_Claims ladder, q4 erratum & q4p robustness arm, publication audit (June 2026): two Fable 5 instances (Claude Code sessions), with confusables._
