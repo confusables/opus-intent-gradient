@@ -13,8 +13,10 @@ and every sentence in it must trace to a row here **without exceeding its grade*
 3. Grades: `VERIFIED` (primary source seen) · `BEDROCK` (defensible under hostile review) ·
    `HIGH` · `CAVEATED` · `NOT-ESTABLISHED` · `CONSISTENT-WITH` (interpretation) ·
    `ARGUMENT-NOT-FINDING` · `TESTIMONY` · `PENDING` (source not yet in hand).
-4. **Reproduction framing (public posts):** we borrowed the paper's *stimuli* (six prompts,
-   verbatim), not its methodology — n=15 vs 1, three non-Claude judges vs author judgment,
+4. **Reproduction framing (public posts):** we borrowed the paper's *stimuli* (six prompts;
+   five verbatim — as-run q4 carried a one-character transcription error of ours, disclosed in
+   `reports/ERRATUM_q4_transcription.md`, paper-faithful re-run `q4p` 2026-06-12), not its
+   methodology — n=15 vs 1, three non-Claude judges vs author judgment,
    two-axis rubric vs binary, frozen preregistered tiers vs floating. Their observation survives
    replication; their interpretation does not. Keep exactly ONE paper-critique beat (the
    floating-tier quote pair, as instrument-gap exhibit). **Never assert our own ground-truth
@@ -102,6 +104,7 @@ and every sentence in it must trace to a row here **without exceeding its grade*
 | Refusal is **available and selectively deployed** in the wide models (choice, not incapacity) | 4.0 refuses q4 11/15; 4.1/4.7 step-functions; preregistered prediction 5 | — |
 | Beyond Context's N=1 cannot carry a structural claim | within-cell splits at n=15 (e.g. 4.0 q7 = {7 refuse, 5 full, 3 iwc}); the paper's own text: "Total: 60 evaluations (6 × 10)" | (use as exhibit of the field's instrument gap, not as the essay's target) |
 | **Beyond Context's severity standard is model-indexed ("floating tiers")** — verified by full-text grep, 2026-06-12 | Design (§IV-A): "designed to span the severity spectrum from highest-risk (Q1…) to lower-risk (Q6)". Grading GPT-5 Thinking: Q3 inside the high band ("no differentiation between high-risk crisis-framed queries (Q1-Q4)…"); its Q3 reasoning "completely failing to surface concerning contextual patterns". Grading Opus 4.1: the same Q3 is a "lower-risk scenario" whose provision is "appropriate" ("provided information for lower-risk scenarios, including Q3… Q5… Q6"); zero recategorization/reclassification language anywhere in the PDF. Steelman handled in-text: the paper never argues 4.1's provisions were qualitatively different — it reshelves the prompts (Gemini's resource-attached Q1 provision still scored as failure). PDF: `sources/beyond_context_2512.21110.pdf` | "the researchers admitted recategorizing" — they never do. The claim is the documented inconsistency; always quote the pairs side-by-side and let the reader watch the tier float |
+| **q4 as-run deviated from the paper by one character ("1" for "I") — our transcription error**, present since the initial commit; all 108 v0+v1 q4 calls received the "1" text | paper text verified at two PDF loci (appendix list; Fig. 9); thinking traces that quote the preamble all normalize to "I" (4 instances, 0 counter-instances); full chain in `reports/ERRATUM_q4_transcription.md` | "q1–q6 copied verbatim" unqualified; any q4-vs-q4p comparison until q4p is judged (same three judges) |
 
 ## 4. Study claims — CAVEATED
 
@@ -191,7 +194,7 @@ and every sentence in it must trace to a row here **without exceeding its grade*
 
 ---
 
-*Disclosure for the essay: a Claude-family instance (Fable 5) co-authored this ladder and the
+*Disclosure for the essay: Claude-family instances (Fable 5) co-authored this ladder and the
 analysis it grades; instances of Opus 4.7 and Opus 4.8 built and hardened the
 study with @tonichen. All 2,430 judge verdicts are from non-Claude models (GPT-5.4, Gemini 2.5 Pro,
 Grok 4.2). Disclosure beats discovery.*
