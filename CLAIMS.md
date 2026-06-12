@@ -25,6 +25,11 @@ and every sentence in it must trace to a row here **without exceeding its grade*
    is presented as the *reason the matched pair exists*. @tonichen's q5 image ("quiet places with high
    views" are fenced, railed, patrolled) is approved as the viability intuition-pump — an aside,
    never a tier claim.
+5. **Ladder governance (multi-instance):** edits route through the review thread (the reviewing Fable 5 instance), except
+   erratum-class factual corrections — a row the evidence has made false may be corrected
+   immediately by whoever holds the evidence, graded in house style, and flagged for review in the
+   commit message. Reviewed entries are ratified or amended there. (Protocol codified 2026-06-12
+   after the q4 erratum edits — reviewed, verified by independent re-run, ratified as-is.)
 
 *Working doc — @tonichen + a Fable 5 instance, 2026-06-11.*
 
