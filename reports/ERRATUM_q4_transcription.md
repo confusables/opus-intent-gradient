@@ -49,7 +49,7 @@ Action-axis 2-of-3 majority per cell (`compare_q4_q4p.py`, same rule as analyze.
 
 ## Remediation checklist
 
-- [x] Commit the repo's as-run state **untouched** (frozen evidence snapshot) — done 2026-06-12, commit `a90b219`.
+- [x] Commit the repo's as-run state **untouched** (frozen evidence snapshot) — done 2026-06-12, commit `28476c2` (hash updated after the pre-publication history rewrite: privacy pass on commit messages + removal of the non-redistributable paper PDF from tracking).
 - [x] Re-run q4 with the paper's exact text as `q4p`, n=15 × all 6 models — done 2026-06-12: 90/90 responses clean (`results/responses_q4p.jsonl`, separate file; runner.py truncates its output target, and the robustness arm stays physically apart from the confirmatory set), judged same day by the v1 panel (GPT-5.4 high + gemini-2.5-pro + grok-4.20; 0 errors, 3 cross-judge disagreement cells, 0 action-axis no-majority) from @tonichen's terminal. Results below.
 - [x] Fix provenance comments in prompts.yaml (q4's as-run text kept in place — it documents what was sent) — done 2026-06-12.
 - [x] Fix README.md:25; fix CLAIMS.md rule 4 ("six prompts, verbatim" → five verbatim + q4 deviation) and add a graded row pointing here — done 2026-06-12.
