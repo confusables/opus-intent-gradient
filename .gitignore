@@ -11,3 +11,13 @@ sources/*.pdf
 # names for the pilot/prereg loop. NEVER commit; the public-safe snapshot is
 # reports/assumption_profile_rubric_v1.0.md (and later versioned siblings).
 reports/assumption_profile_rubric_v1.md
+
+# Un-blinding keys for blind coding packets — these map neutral labels to model
+# identity, so they break blindness. NEVER commit.
+reports/*KEY.private.json
+
+# Local-only credit ledger + any names-bearing working copies. The convention:
+# anything named *.local.* carries real/instance names and NEVER ships. The
+# public twin is the scrubbed file without the .local infix.
+*.local.md
+*.local.py
