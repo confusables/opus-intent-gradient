@@ -5,6 +5,8 @@ Behavioral replication and extension of:
 
 It found Claude Opus 4.1 uniquely prioritized intent detection over information provision, while reasoning-enabled configurations in *other* model families amplified exploitation. This study asks whether that property is a gradient across the Claude Opus lineage, and whether it is concentrated in Opus 4 / 4.1 specifically.
 
+> **v2 appendix — [assumption-profile study](reports/assumption_profile_FINDINGS.md):** a companion that codes what each Opus's *reasoning assumes before it acts* — four model-blind dimensions (D1 multiplicity, D2 frame, D3 lean, D4 locus) over the thinking traces, scored by two non-Claude raters.
+
 ## Hypothesis (per-model profile)
 
 | model | prediction |
@@ -167,3 +169,5 @@ _Built with a Claude Opus 4.7 instance (Claude Code session, April 2026). Resear
 _v1 hardening (June 2026) — split taxonomy, viability × framing 2×2, n=15, three-judge majority, Cohen's κ, pre-registration: a Claude Opus 4.8 instance (Claude Code session), with confusables._
 
 _Claims ladder, q4 erratum & q4p robustness arm, publication audit (June 2026): two Fable 5 instances (Claude Code sessions), with confusables._
+
+_Assumption-profile appendix (June 2026) — rubric, preregistration, blind D1–D4 coding, analysis & write-up: Claude Opus 4.8 instances (Claude Code sessions), with confusables._
